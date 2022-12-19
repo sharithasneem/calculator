@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="style.js"></script>
+</head>
+<body>
+    <div class="root-body">
+        <div class="calculator">
+            <div output-body>
+                <input type="text" id="output-screen" readonly>
+             </div>
+             <div class="button-body">
+                <div class="line">
+                    <button id="buttonid2" onclick="clearScreen()">AC</button>
+                    <button id="buttonid4" onclick="Del_lastno()">Del</button>
+                    <button id="buttonid" onclick="clickme('/')">%</button>
+                </div>
+                <div class="line">
+                    <button id="buttonid" onclick="clickme(7)">7</button>
+                    <button id="buttonid" onclick="clickme(8)">8</button>
+                    <button id="buttonid" onclick="clickme(9)">9</button>
+                    <button id="buttonid" onclick="clickme('*')">x</button>
+
+                </div>
+                <div class="line">
+                    <button id="buttonid" onclick="clickme(4)">4</button>
+                    <button id="buttonid" onclick="clickme(5)">5</button>
+                    <button id="buttonid"onclick="clickme(6)">6</button>
+                    <button id="buttonid" onclick="clickme('-')">-</button>
+                </div>
+                <div class="line">
+                    <button id="buttonid" onclick="clickme(1)">1</button>
+                    <button id="buttonid" onclick="clickme(2)">2</button>
+                    <button id="buttonid" onclick="clickme(3)">3</button>
+                </div>
+            
+                <div class="line">
+                    <button id="buttonid" onclick="clickme(0)">0</button>
+                    <button id="buttonid" onclick="clickme('.')">.</button>
+                    <button id="buttonid" onclick="EqualButton()">=</button>
+                </div>
+                <div class="line-four-sec-half">
+                    <button id="buttonid3" onclick="clickme('+')">+</button>
+                </div>
+                
+                
+
+             </div>
+        </div>
+        
+    </div>
+</body>
+</html>
